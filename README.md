@@ -8,6 +8,9 @@ A extended project built upon the framework of a course project. The game implem
 
 The project is a grand-strategy game, set in the time of Ancient Rome, where the player(s) can play as a faction of the time (such as the Romans, Carthaginians, Gauls, Celtic Britons, Spanish, Numidians, Egyptians, Seleucid Empire, Pontus, Amenians, Parthians, Germanics, Greek City States, Macedonians, Thracians, Dacians), with the overall goal of conquering all provinces in the game map (or succeeding at another grand victory objective).
 
+![image](https://user-images.githubusercontent.com/73875509/150711462-351981e1-d7b6-4fb4-a104-91e329e310fc.png)
+
+
 The game is a turn-based military/economic strategy game - each faction engages in actions during sequential "turns", where they perform all actions to manage their armies and provinces for a single year in their turn, before clicking "End turn", which will result in all other factions performing their turns sequentially.
 
 The basic unit of currency in the game will be "Gold". Each unit of troops has a price which must be paid in gold upfront, without going into debt.
