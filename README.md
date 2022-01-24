@@ -15,6 +15,8 @@ The game is a turn-based military/economic strategy game - each faction engages 
 
 The basic unit of currency in the game will be "Gold". Each unit of troops has a price which must be paid in gold upfront, without going into debt.
 
+![image](https://user-images.githubusercontent.com/73875509/150716713-8138c403-694a-45ca-badf-50b3541e2f68.png)
+
 ### Basic Campaign Game Interactions
 
 Upon starting/loading a game, the user is presented with a game map and a menu/menus to perform actions. The game map displays a map of the world, split into historically accurate, clickable provinces. Each province should be allocated to a faction, and display the flag of the faction, the province wealth, the number of soldiers, and the faction name.
