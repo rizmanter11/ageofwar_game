@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Background?>
+<?import javafx.scene.layout.BackgroundFill?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+
+<VBox maxWidth="250" prefHeight="720.0" prefWidth="250.0" spacing="10" styleClass="panel-region" stylesheets="/unsw/gloriaromanus/style.css" StackPane.alignment="TOP_LEFT" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.gloriaromanus.TaxMenu2Controller">
+    <padding>
+        <Insets topRightBottomLeft="10" />
+    </padding>
+    <background>
+        <Background>
+            <fills>
+                <BackgroundFill>
+                    <fill>
+                        <Color opacity="0.3" />
+                    </fill>
+                </BackgroundFill>
+            </fills>
+        </Background>
+    </background>
+    <HBox>
+        <VBox>
+            <Label text="Your province" />
+            <TextField fx:id="invading_province" editable="false" text="" />
+        </VBox>
+        <VBox />
+    </HBox>
+    <VBox>
+        <Label text="Output from interactions" />
+        <TextArea fx:id="output_terminal" editable="false" text="" />
+    </VBox>
+   <Button fx:id="lowTax" mnemonicParsing="false" onAction="#setLowTax" text="Low Tax" />
+   <Button fx:id="normalTax" mnemonicParsing="false" onAction="#setNormalTax" text="Normal Tax" />
+   <Button fx:id="highTax" mnemonicParsing="false" onAction="#setHighTax" text="High Tax" />
+   <Button fx:id="veryHighTax" mnemonicParsing="false" onAction="#setVeryHighTax" text="Very High Tax" />
+    <Button onAction="#clickedTaxMenu" text="Chosen Tax" translateY="200.0" />
+</VBox>

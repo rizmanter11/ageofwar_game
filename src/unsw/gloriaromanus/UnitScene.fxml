@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.gloriaromanus.RecruitMenuController">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="soldiertf" layoutX="215.0" layoutY="75.0" promptText="Soldier" />
+            <TextField fx:id="numberofsoldtf" layoutX="215.0" layoutY="128.0" promptText="Number of soldiers" />
+            <Button fx:id="enterbtn" layoutX="269.0" layoutY="200.0" mnemonicParsing="false" onAction="#recruitTroops" text="Enter" />
+            <Button fx:id="recruit" layoutX="229.0" layoutY="330.0" mnemonicParsing="false" onAction="#clickedRecruit" text="Finished Recruiting" />
+            <TextArea fx:id="outputta" layoutX="415.0" layoutY="75.0" prefHeight="200.0" prefWidth="170.0" text="Output" wrapText="true" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

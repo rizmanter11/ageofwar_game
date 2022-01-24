@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Background?>
+<?import javafx.scene.layout.BackgroundFill?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxWidth="250" prefHeight="911.0" prefWidth="250.0" spacing="10" styleClass="panel-region" stylesheets="/unsw/gloriaromanus/style.css" StackPane.alignment="TOP_LEFT" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.gloriaromanus.InvasionMenuController">
+    <padding>
+        <Insets topRightBottomLeft="10" />
+    </padding>
+    <background>
+        <Background>
+            <fills>
+                <BackgroundFill>
+                    <fill>
+                        <Color opacity="0.3" />
+                    </fill>
+                </BackgroundFill>
+            </fills>
+        </Background>
+    </background>
+    <HBox>
+        <VBox>
+            <Label text="Your province" />
+            <TextField fx:id="invading_province" editable="false" text="" />
+        </VBox>
+        <VBox>
+            <Label text="Enemy province" />
+            <TextField fx:id="opponent_province" editable="false" text="" />
+        </VBox>
+    </HBox>
+    <Button onAction="#clickedInvadeButton" text="Invade" />
+    <VBox>
+        <Label text="Output from interactions" />
+        <TextArea fx:id="output_terminal" editable="false" text="" />
+    </VBox>
+    <Button onAction="#clickedSwitchMenu" text="End Turn" />
+   <Button fx:id="cancel" mnemonicParsing="false" onAction="#clickedCancel" text="Cancel Recruit" />
+   <Label text="GOALS" translateY="50.0">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+    <TextArea fx:id="goal" editable="false" prefHeight="91.0" prefWidth="216.0" text="" translateY="50.0" />
+   <Button fx:id="tax" mnemonicParsing="false" onAction="#clickedTaxMenu" text="Choose Tax" translateX="130.0" translateY="90.0" />
+   <Button fx:id="recruit" mnemonicParsing="false" onAction="#clickedRecruit" text="Recruit Units" translateY="55.0" />
+   <Label fx:id="year" text="0 AD" translateY="60.0">
+      <font>
+         <Font size="32.0" />
+      </font>
+   </Label>
+   <Label text="PLAYER 1 TURN" translateY="90.0">
+      <font>
+         <Font size="28.0" />
+      </font>
+   </Label>
+   <Button fx:id="save" mnemonicParsing="false" onAction="#selectSave" text="Save" translateY="120.0" />
+   <Label fx:id="treasury" text="Treasury: 0" translateY="150.0">
+      <font>
+         <Font size="25.0" />
+      </font>
+   </Label>
+</VBox>

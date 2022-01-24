@@ -1,0 +1,17 @@
+{ "soldier": "heavy infantry", "unit": "infantry", "range": 0, "attack": 30, "defense": 24, "morale": 10, "armour": 100, "shield": 3, "speed": 4, "recruitTime": 2, "cost": 7}
+{ "soldier": "skirmisher", "unit": "infantry", "range": 0, "attack": 20, "defense": 20, "morale": 8, "armour": 70, "shield": 3, "speed": 7, "recruitTime": 1, "cost": 5} 
+{ "soldier": "spearman", "unit": "infantry", "range": 0, "attack": 22, "defense": 18, "morale": 6, "armour": 60, "shield": 1, "speed": 5, "recruitTime": 1, "cost": 4}
+{ "soldier": "archer", "unit": "infantry", "range": 15, "attack": 20, "defense": 10, "morale": 9, "armour": 80, "shield": 2, "speed": 5, "recruitTime": 1, "cost": 6}
+{ "soldier": "slinger", "unit": "infantry", "range": 8, "attack": 9, "defense": 9, "morale": 2, "armour": 50, "shield": 1, "speed": 6, "recruitTime": 1, "cost": 3}
+{ "soldier": "legionary", "unit": "infantry", "range": 0, "attack": 25, "defense": 24, "morale": 11, "armour": 100, "shield": 2, "speed": 7, "recruitTime": 2, "cost": 6} 
+{ "soldier": "beserker", "unit": "infantry", "range": 0, "attack": 35, "defense": 30, "morale": 18, "armour": 150, "shield": 5, "speed": 3, "recruitTime": 3, "cost": 11}
+{ "soldier": "pikeman", "unit": "infantry", "range": 0, "attack": 22, "defense": 10, "morale": 10, "armour": 70, "shield": 2, "speed": 5, "recruitTime": 1, "cost": 3}
+{ "soldier": "hoplite", "unit": "infantry", "range": 0, "attack": 23, "defense": 26, "morale": 14, "armour": 110, "shield": 2, "speed": 4, "recruitTime": 1, "cost": 4}
+{ "soldier": "druid", "unit": "infantry", "range":18, "attack": 30, "defense": 6, "morale": 6, "armour": 70, "shield": 2, "speed": 7, "recruitTime": 2, "cost": 10}
+{ "soldier": "lancer", "unit": "cavalry", "range": 0, "attack": 22, "charge": 10, "defense": 20, "morale": 11, "armour": 125, "shield": 3, "speed": 3, "recruitTime": 2, "cost": 9}
+{ "soldier": "heavy cavalry", "unit": "cavalry", "range": 0, "attack": 30, "charge": 5, "defense": 35, "morale": 12, "armour": 150, "shield": 4, "speed": 2, "recruitTime": 2, "cost": 8}
+{ "soldier": "elephant", "unit": "cavalry", "range": 0, "attack": 45, "charge": 20, "defense": 35, "morale": 14, "armour": 200, "shield": 5, "speed": 1, "recruitTime": 3, "cost": 15}
+{ "soldier": "chariot", "unit": "cavalry", "range": 0, "attack": 25, "charge": 15, "defense": 25, "morale": 13, "armour": 130, "shield": 4, "speed": 1, "recruitTime": 2, "cost": 10}
+{ "soldier": "horse archer", "unit": "cavalry", "range": 20, "attack": 20, "charge": 8, "defense": 15, "morale": 14, "armour": 125, "shield": 3, "speed": 2, "recruitTime": 2, "cost": 7}
+{ "soldier": "ballista", "unit": "artillery", "range": 30, "attack": 30, "defense": 8, "morale": 13, "armour": 80, "shield": 1, "speed": 1, "recruitTime": 2, "cost": 8}
+{ "soldier": "onager", "unit": "artillery", "range": 35, "attack": 25, "defense": 7, "morale": 12, "armour": 75, "shield": 1, "speed": 1, "recruitTime": 2, "cost": 8} 

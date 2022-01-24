@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.gloriaromanus.FactionMenuController">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="679.0">
+         <children>
+            <Label layoutX="23.0" layoutY="14.0" text="Player 1 choose your faction ">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="roman1" layoutX="26.0" layoutY="40.0" mnemonicParsing="false" onAction="#Roman1" text="Roman" />
+            <Button fx:id="gaul1" layoutX="27.0" layoutY="79.0" mnemonicParsing="false" onAction="#Gaul1" text="Gaul" />
+            <Button fx:id="numidian1" layoutX="27.0" layoutY="116.0" mnemonicParsing="false" onAction="#Numidian1" text="Numidian" />
+            <Button fx:id="seleucid1" layoutX="30.0" layoutY="153.0" mnemonicParsing="false" onAction="#Seleucid1" text="Seleucid" />
+            <Button fx:id="armenian1" layoutX="27.0" layoutY="187.0" mnemonicParsing="false" onAction="#Armenian1" text="Armenian" />
+            <Button fx:id="germanic1" layoutX="26.0" layoutY="226.0" mnemonicParsing="false" onAction="#Germanic1" text="Germanic" />
+            <Button fx:id="mace1" layoutX="26.0" layoutY="265.0" mnemonicParsing="false" onAction="#Mace1" text="Macedonian" />
+            <Button fx:id="dacian1" layoutX="26.0" layoutY="305.0" mnemonicParsing="false" onAction="#Dacian1" text="Dacian" />
+            <Button fx:id="cartignian1" layoutX="130.0" layoutY="40.0" mnemonicParsing="false" onAction="#Carthignian1" text="Carthignian" />
+            <Button fx:id="celtic1" layoutX="128.0" layoutY="79.0" mnemonicParsing="false" onAction="#Celtic1" text="Celtic Briton" />
+            <Button fx:id="egyptian1" layoutX="131.0" layoutY="116.0" mnemonicParsing="false" onAction="#Egyptian1" text="Egyptian" />
+            <Button fx:id="pontus1" layoutX="131.0" layoutY="153.0" mnemonicParsing="false" onAction="#Pontus1" text="Pontus" />
+            <Button fx:id="parthian1" layoutX="126.0" layoutY="187.0" mnemonicParsing="false" onAction="#Parthian1" text="Parthian" />
+            <Button fx:id="greek1" layoutX="114.0" layoutY="226.0" mnemonicParsing="false" onAction="#Greek1" text="Greek City State" />
+            <Button fx:id="thracian1" layoutX="131.0" layoutY="265.0" mnemonicParsing="false" onAction="#Thracian1" text="Thracian" />
+            <Button fx:id="spanish1" layoutX="114.0" layoutY="305.0" mnemonicParsing="false" onAction="#Spanish1" text="Spanish" />
+            <Label layoutX="317.0" layoutY="14.0" text="Player 2 choose your faction">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="roman2" layoutX="319.0" layoutY="40.0" mnemonicParsing="false" onAction="#Roman2" text="Roman" />
+            <Button fx:id="carthignian2" layoutX="419.0" layoutY="40.0" mnemonicParsing="false" onAction="#Carthignian2" text="Carthignian" />
+            <Button fx:id="gaul2" layoutX="319.0" layoutY="77.0" mnemonicParsing="false" onAction="#Gaul2" text="Gaul" />
+            <Button fx:id="celtic2" layoutX="417.0" layoutY="77.0" mnemonicParsing="false" onAction="#Celtic2" text="Celtic Briton" />
+            <Button fx:id="numdian2" layoutX="320.0" layoutY="116.0" mnemonicParsing="false" onAction="#Numidian2" text="Numidian" />
+            <Button fx:id="egyptian2" layoutX="415.0" layoutY="116.0" mnemonicParsing="false" onAction="#Egyptian2" text="Egyptian" />
+            <Button fx:id="celeucid2" layoutX="323.0" layoutY="153.0" mnemonicParsing="false" onAction="#Seleucid2" text="Seleucid" />
+            <Button fx:id="pontus2" layoutX="420.0" layoutY="153.0" mnemonicParsing="false" onAction="#Pontus2" text="Pontus" />
+            <Button fx:id="armenian2" layoutX="320.0" layoutY="187.0" mnemonicParsing="false" onAction="#Armenian2" text="Armenian" />
+            <Button fx:id="parthian2" layoutX="425.0" layoutY="187.0" mnemonicParsing="false" onAction="#Parthian2" text="Parthian" />
+            <Button fx:id="german2" layoutX="319.0" layoutY="226.0" mnemonicParsing="false" onAction="#German2" text="Germanic" />
+            <Button fx:id="greek2" layoutX="419.0" layoutY="219.0" mnemonicParsing="false" onAction="#Greek2" text="Greek City State" />
+            <Button fx:id="macedonian2" layoutX="318.0" layoutY="265.0" mnemonicParsing="false" onAction="#Mace2" text="Macedonian" />
+            <Button fx:id="thracian2" layoutX="424.0" layoutY="265.0" mnemonicParsing="false" onAction="#Thracian2" text="Thracian" />
+            <Button fx:id="dacian2" layoutX="319.0" layoutY="299.0" mnemonicParsing="false" onAction="#Dacian2" text="Dacian" />
+            <Button fx:id="spanish2" layoutX="416.0" layoutY="299.0" mnemonicParsing="false" onAction="#Spanish2" text="Spanish" />
+            <TextArea fx:id="player1_out" layoutX="29.0" layoutY="338.0" prefHeight="64.0" prefWidth="244.0" />
+            <TextArea fx:id="player2_out" layoutX="333.0" layoutY="331.0" prefHeight="64.0" prefWidth="254.0" />
+            <Button fx:id="chosen" layoutX="4.0" layoutY="429.0" mnemonicParsing="false" onAction="#chosenFactions" text="chosen factions" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

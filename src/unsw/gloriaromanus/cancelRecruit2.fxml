@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.gloriaromanus.CancelRecruitController">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="unittf" layoutX="370.0" layoutY="30.0" prefHeight="26.0" prefWidth="201.0" promptText="Enter Valid Unit to Remove" />
+            <Button fx:id="canceltf" layoutX="414.0" layoutY="146.0" mnemonicParsing="false" onAction="#cancelRecruit" text="Cancel Recruit" />
+            <Button fx:id="donebtn" layoutX="370.0" layoutY="225.0" mnemonicParsing="false" onAction="#clickedCancel" text="Finished Cancelling Recruits" />
+            <Button fx:id="show" layoutX="396.0" layoutY="86.0" mnemonicParsing="false" onAction="#showfn" text="Show Pending Units" />
+            <TextArea fx:id="labelid" layoutX="40.0" layoutY="38.0" prefHeight="161.0" prefWidth="264.0" wrapText="true" />
+            <TextArea fx:id="outputta" layoutX="40.0" layoutY="216.0" prefHeight="104.0" prefWidth="264.0" text="Output" wrapText="true" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
