@@ -1,6 +1,8 @@
 # romancivilisation_game
 
-A extended project built upon the framework of a course project. The game implements more extensions that enahcnes the game imcluding implementing immersive background music,having a multiplayer campaign rather than a one player vs CP and the ability to choose your path to campaign vistory. It implements various OOP design patterns and 
+A extended project built upon the framework of a course project. The game implements more extensions that enahcnes the game imcluding implementing immersive background music,having a multiplayer campaign rather than a one player vs CP and the ability to choose your path to campaign vistory. It implements various OOP design patterns and uses javafx to create an interactive front-end to the project. 
+
+![image](https://user-images.githubusercontent.com/73875509/150711108-bced4bb3-88d9-46af-91eb-edb1e549107f.png)
 
 ### Preliminary client requirements
 
