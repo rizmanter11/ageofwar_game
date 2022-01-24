@@ -2,7 +2,7 @@
 
 A extended project built upon the framework of a course project. The game implements more extensions that enahcnes the game imcluding implementing immersive background music,having a multiplayer campaign rather than a one player vs CP and the ability to choose your path to campaign vistory. It implements various OOP design patterns and 
 
-## Preliminary client requirements
+### Preliminary client requirements
 
 The project is a grand-strategy game, set in the time of Ancient Rome, where the player(s) can play as a faction of the time (such as the Romans, Carthaginians, Gauls, Celtic Britons, Spanish, Numidians, Egyptians, Seleucid Empire, Pontus, Amenians, Parthians, Germanics, Greek City States, Macedonians, Thracians, Dacians), with the overall goal of conquering all provinces in the game map (or succeeding at another grand victory objective).
 
