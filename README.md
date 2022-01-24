@@ -44,6 +44,8 @@ When starting a campaign game, a logical conjunction(AND)/disjunction(OR) of bas
   ]
 }
 
+![image](https://user-images.githubusercontent.com/73875509/150711585-d6680440-6e33-4553-80cd-4651211fd35f.png)
+
 This example of a victory condition would allow victory in either of the following scenarios:
 
 * TREASURY and CONQUEST goals achieved
