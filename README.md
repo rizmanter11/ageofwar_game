@@ -4,7 +4,7 @@ A extended project built upon the framework of a course project. The game enforc
 
 ![image](https://user-images.githubusercontent.com/73875509/150711108-bced4bb3-88d9-46af-91eb-edb1e549107f.png)
 
-### Preliminary client requirements
+### Overview
 
 The project is a grand-strategy game, set in the time of Ancient Rome, where the player(s) can play as a faction of the time (such as the Romans, Carthaginians, Gauls, Celtic Britons, Spanish, Numidians, Egyptians, Seleucid Empire, Pontus, Amenians, Parthians, Germanics, Greek City States, Macedonians, Thracians, Dacians), with the overall goal of conquering all provinces in the game map (or succeeding at another grand victory objective).
 
