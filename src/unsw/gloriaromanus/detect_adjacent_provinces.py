@@ -24,7 +24,6 @@ from collections import defaultdict
 from shapely.geometry import MultiPolygon, Polygon
 import json
 
-
 M = defaultdict(dict)
 
 WRITE_NEW_FILE = True
